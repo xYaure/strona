@@ -25,7 +25,8 @@ setInterval(() => {
 
 const loading_screen = document.querySelector('#loading_screen');
 window.addEventListener('load',()=>{
-    setTimeout(() => {
-        loading_screen.style.display="none"
-    }, 2000);
+        loading_screen.style.opacity="0"
+        setTimeout(() => {
+            loading_screen.style.display="none"
+        }, 500);
 })
